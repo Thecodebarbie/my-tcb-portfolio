@@ -2,6 +2,7 @@ import React from "react";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { Spotlight } from "./ui/Spotlight";
 import MagicButton from "./ui/MagicButton";
+import { SlCursor } from "react-icons/sl";
 
 const Hero = () => {
   return (
@@ -51,7 +52,8 @@ const Hero = () => {
           <a href="#about">
             <MagicButton
             title="Show My Work"
-
+            icon={<SlCursor />}
+            position="right"
             />
           </a>
         </div>
