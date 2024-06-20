@@ -1,6 +1,7 @@
 import React from "react";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { Spotlight } from "./ui/Spotlight";
+import MagicButton from "./ui/MagicButton";
 
 const Hero = () => {
   return (
@@ -46,6 +47,13 @@ const Hero = () => {
             functionality meets aesthetic design. Explore my portfolio to see
             how I transform ideas into interactive realities.
           </p>
+
+          <a href="#about">
+            <MagicButton
+            title="Show My Work"
+
+            />
+          </a>
         </div>
       </div>
     </div>
